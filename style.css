@@ -1,0 +1,80 @@
+/*table {
+	border-collapse: collapse;
+}
+table td, table th {
+	border: 1px solid black;
+}
+table tr:first-child th {
+	border-top: 0;
+}
+table tr:last-child td {
+	border-bottom: 0;
+}
+table tr td:first-child,
+table tr th:first-child {
+	border-left: 0;
+}
+table tr td:last-child,
+table tr th:last-child {
+	border-right: 0;
+}
+
+*/
+
+audio{
+	width: 275px;
+	margin: 3px;
+	height: 40px;
+}
+
+table{
+	
+	margin-bottom: 20px;
+	background-color: white;
+}
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+a:active {
+	color: black;
+}
+
+
+
+body, html {
+		height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+	/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpg");
+
+	/* Set a specific height */
+	height: 35%;
+
+	/* Position and center the image to scale nicely on all screens */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
